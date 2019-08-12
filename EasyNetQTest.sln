@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28822.285
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "EasyNetQTest\Publisher.csproj", "{7CA7E7EA-72EA-48D3-ADFB-26CA0BB416D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "EasyNetQTest\Publisher.csproj", "{7CA7E7EA-72EA-48D3-ADFB-26CA0BB416D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Subscriber.csproj", "{71288171-4FEF-4D3D-88D0-9E39CCD5CADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber", "Subscriber\Subscriber.csproj", "{71288171-4FEF-4D3D-88D0-9E39CCD5CADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{2CFFFE8D-575D-4C31-B5CB-276FE83A4110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages", "Messages\Messages.csproj", "{2CFFFE8D-575D-4C31-B5CB-276FE83A4110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSubscriber", "WebSubscriber\WebSubscriber.csproj", "{7324DC09-8FDB-4550-9AAC-8801F84C0CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPublisher", "WebPublisher\WebPublisher.csproj", "{3EECFADA-F6B0-4806-B0FD-A2353AA4B8CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{2CFFFE8D-575D-4C31-B5CB-276FE83A4110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFFFE8D-575D-4C31-B5CB-276FE83A4110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFFFE8D-575D-4C31-B5CB-276FE83A4110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7324DC09-8FDB-4550-9AAC-8801F84C0CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7324DC09-8FDB-4550-9AAC-8801F84C0CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7324DC09-8FDB-4550-9AAC-8801F84C0CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7324DC09-8FDB-4550-9AAC-8801F84C0CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EECFADA-F6B0-4806-B0FD-A2353AA4B8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EECFADA-F6B0-4806-B0FD-A2353AA4B8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EECFADA-F6B0-4806-B0FD-A2353AA4B8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EECFADA-F6B0-4806-B0FD-A2353AA4B8CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
